@@ -1,0 +1,261 @@
+@import url(fonts/font.min.css);
+@import url(fonts/font-awesome-4.7.0/css/font-awesome.css);
+@import url(fonts/font-awesome-4.7.0/css/font-awesome.min.css);
+@import url(fonts/ionicons.css);
+@import url(bootstrap.min.css);
+@import url(bootstrap.css.map);
+
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Lato-Medium';
+}
+
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+body {
+	background-color: rgba(47, 39, 176, 0.45);
+}
+
+.nav>li>a:focus, 
+.nav>li>a:hover {
+	background: none;
+}
+
+nav ul li{
+	float: left;
+    margin: 5px 4px;
+    list-style: none;
+    border-radius: 6px;
+    color: #ccc;
+    display: inline-block;
+}
+
+
+ul li a{
+	font-family: 'Lato-MediumItalic';
+	padding: 5px 15px !important;
+	color: #fff;
+}
+
+ul li:last-child a:before {
+	content: "\f093";
+	font-family: 'FontAwesome';
+}
+
+ul li:first-child a:before {
+	content: "\f015";
+	font-family: 'FontAwesome';
+}
+
+
+ul li a:hover{
+	color: rgb(159, 199, 255);
+}
+
+section {
+	background-color: rgba(148, 142, 135, 0.72);
+    margin: -15px 0 50px 0px;
+    border-radius: 5px;
+    padding-bottom: 50px;
+}
+
+.h3, h3 {
+    font-size: 24px;
+    margin-right: 15px;
+    text-align: right;
+}
+
+main {
+	width: 100%;
+    float: right;
+    position: relative;
+}
+
+aside {
+    position: absolute;
+    z-index: 3;
+    max-width: 15%;
+    height: 100%;
+    background-color: currentColor;
+    top: 0;
+        display: none;
+}	
+
+span.title-menu {
+	color: wheat;
+    font-size: 31px;
+    display: inline-block;
+    border-bottom: 1px solid;
+    width: 100%;
+    text-align: center;
+}
+
+.close-menu:before {
+	content: "\f00d";
+	font-family: 'FontAwesome';
+	font-size: 25px;
+}
+
+
+button.close-menu,
+button.menu {
+    padding: 5px 10px;
+    position: absolute;
+    font-size: 26px;
+    float: left;
+    background: none;
+    border: none;
+    color: antiquewhite;
+    top: 0;
+    left: 0;
+}
+
+button.menu:before {
+	content: "\f0c9";
+	font-family: 'FontAwesome';
+}
+
+.logo{
+	font-size: 45px;
+    float: left;
+    text-shadow: rgba(0, 0, 0, 0.42) 3px 2px 0px;
+    position: relative;
+    top: -7px;
+    font-family: cursive;
+}
+
+.content{
+	min-height: 56.2%;
+	padding: 15px;
+	font-family: 'Lato Medium';
+	overflow: hidden;
+}
+
+footer{
+	background-color: currentColor;
+    padding: 25px;
+    border-top: 10px solid #6464f3;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+select{
+	padding: 7px 20px 7px 20px; 
+	border-radius:7px; 
+	font: bold 12px sans-serif; 
+	background: #fff; 
+	list-style: none; 
+	font-family: "Courier New", Courier, monospace; 
+	color:#000; 
+	border: #000 1px solid;
+	margin-bottom: 15px;
+}  
+
+a:link, 
+a:visited{
+	text-decoration: none;
+	font-size: 22px;
+}
+
+a:hover{
+	color:#fff; 
+	text-shadow:#ccc 0px 0px 5px; 
+}	  
+
+main a{
+	font-size: 14px;
+	font-family: 'Lato Regular';
+	color: #f5f5f5;
+}
+
+.req{
+	color: red;
+}
+
+.panel-content {
+	    padding: 30px 15px 20px 15px;
+}
+
+.table>tbody>tr>th,
+.table>tbody>tr>td {
+	    vertical-align: middle !important;
+	    text-align: center !important;
+	    min-width: 65px;
+	        letter-spacing: 1.2px;
+}
+
+.info {
+	opacity: 1;
+}
+
+button.delete:before {
+	content: "\f1f8";
+	font-family: 'FontAwesome';
+
+}
+	
+.icon:before {
+	content: "\f016";
+	font-family: 'FontAwesome';
+	margin-right: 25px;
+}
+
+.hover {
+    position: absolute;
+    display: none;
+    background-color: rgba(68, 68, 68, 0.9);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.message {
+    position: relative;
+    top: 20%;
+    margin: auto auto;
+    /* left: 40%; */
+    width: 800px;
+    padding: 0px;
+}
+
+
+a.sort-asc:before {
+	content: "\f0d7";
+	font-family: 'FontAwesome';
+	color: #f00;
+}
+
+a.sort-desc:before {
+	content: "\f0d8";
+	font-family: 'FontAwesome';
+	color: #f00;
+}
+
+.question {
+    color: red;
+    font-size: 40px;
+}
+
+.cbalink {
+    display: none;
+}
+
+.hide-id, .hide-name {
+	display: none;
+}
+
+.panel.panel-primary {
+    width: 85%;
+    margin: 0 auto;
+}
